@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background-color: gray;
+    }
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #007bff;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
+    .timeline-item {
+      padding: 10px 0;
+      position: relative;
+      width: 50%;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      background-color: #007bff;
+      border-radius: 50%;
+      left: 50%;
+      bottom: -12px;
+      transform: translateX(-50%);
+    }
+    .timeline-item .timeline-content {
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      position: relative;
+    }
+    .timeline-item .timeline-content h3 {
+      margin-top: 0;
+      color: #007bff;
+    }
+    .timeline-item .timeline-content p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">My Cookery Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">About Us</h1>
+    <div class="row mb-5">
+      <div class="col-md-4">
+        <div class="text-center">
+          <i class="fas fa-utensils fa-5x text-primary mb-3"></i>
+          <h4>Passionate Cooks</h4>
+          <p>We are passionate about cooking and creating delicious recipes that inspire people.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="text-center">
+          <i class="fas fa-users fa-5x text-primary mb-3"></i>
+          <h4>Community Driven</h4>
+          <p>Join our cooking community to share your recipes, tips, and culinary experiences.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="text-center">
+          <i class="fas fa-seedling fa-5x text-primary mb-3"></i>
+          <h4>Fresh Ingredients</h4>
+          <p>We believe in using fresh, high-quality ingredients to create mouthwatering dishes.</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="mb-4">Our Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>2021</h3>
+          <p>Founded Cooking Website with a mission to share our love for cooking with the world.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>2022</h3>
+          <p>Launched our first set of recipes and started building a community of food enthusiasts.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>2023</h3>
+          <p>Expanded our recipe collection and introduced new features to enhance user experience.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>Present</h3>
+          <p>Continuing to grow our community and inspire people to cook homemade meals with passion.</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="mt-5 mb-4">Inspiring Quotes</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p class="mb-0">"Cooking is love made visible."</p>
+          <footer class="blockquote-footer" style="color: crimson;">Sergio Marquina</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote class="blockquote">
+          <p class="mb-0">"The secret ingredient is always love."</p>
+          <footer class="blockquote-footer" style="color: crimson;">Antheres De Fonoloza</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
